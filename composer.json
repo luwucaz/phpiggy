@@ -1,0 +1,17 @@
+{
+    "name": "luwucaz/phpiggy",
+    "description": "PHP application for tracking expenses as a project to \"Complete Modern PHP Developer Couser in 2023\" course in Udemy",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lucas"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        }
+    }
+}
